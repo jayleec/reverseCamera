@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13037AFA1F2F920401B257CDB6F09CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		183A7ED70D9802C8D58AC79E331432DF /* DMResizerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E699739FCC8D48C1851A009AF48710A /* DMResizerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEC62EC45FAA570F01D89336E9C13A2 /* DTShapeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E127D36F017AE1ACA2694D053666CB /* DTShapeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363537B5B5618B090074B3FE0249B512 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		36CEB9E130FE620E3CEB3E52F4DDBD81 /* DTShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC289E358416BC894266046D2E36825 /* DTShapeButton.m */; };
+		3BD2DECF2CCEF9C08B7503B1CD9DF9B9 /* DMActivityInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0962160625C6AC1DE7ACD607F2A66 /* DMActivityInstagram.m */; };
+		4A95952E8A526E3FEBFA01C01A83EEE8 /* CAShapeLayer+UIBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB29BCD988F135B94E5AEA2CBE3570A /* CAShapeLayer+UIBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC21C4B7BD43B1D33AD9412CA98EBC1 /* DMActivityInstagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99749020ABF8996E927DE8A30594AFE5 /* DMActivityInstagram-dummy.m */; };
+		5ABD3D85E81CB6833FEF7F449FB83450 /* DTAnimatableShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B918035F13A6A9AE20950F186164215 /* DTAnimatableShapeLayer.m */; };
+		5C3CDA4111B86DC70A3CFB49ACEEA6F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		6CFC49FC77DFBE5CC9B4A224B9B39775 /* Shapes.h in Headers */ = {isa = PBXBuildFile; fileRef = FC37EDDCD2551983C9CB4D855B9F5BEA /* Shapes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC6B715F1E05AC82D35B501EADD1B96 /* DTDimmingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ADD51B0068818540CE7A384368C348 /* DTDimmingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75EDDF9265692B789A668098F7C9C12F /* DTGraphicsConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAA234B04F27E6C36C69B7391E6BD0 /* DTGraphicsConverter.m */; };
+		79D9E9C8269B566F45313E0E515967E7 /* Pods-SCRecorderExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C76AE6642B2BBFEE1165B7ABAFB3E80 /* Pods-SCRecorderExamples-dummy.m */; };
+		7B6D3E0367FECECD35255E292C15FCC3 /* CAShapeLayer+UIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B73D3D7F9A5FCC25FA60FF82E852B7 /* CAShapeLayer+UIBezierPath.m */; };
+		82E1E40891725ED4B6F3D5A78533D829 /* CATransaction+AnimateWithDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEA27024A76989CDB9BE0B23077AB54 /* CATransaction+AnimateWithDuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FFF79B48FA9F316576D1892222A59B /* Shapes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6982FE33ABA257263B13F36A7B572D76 /* Shapes-dummy.m */; };
+		912F018CC6EED5930AC13B0995E60E5D /* DTAnimatableShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E62ECA25583598DF5C578063977DCDC2 /* DTAnimatableShapeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923F7E5595E24A02E227B9F5B638E1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		9ACFC089FA7964E5758FEA7BAB6927F2 /* DMActivityInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = F28B2468B42B5C946E2AFC55DD7C32AC /* DMActivityInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1DAEC998B7D18E2654B3967144A1A5 /* DTShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E558E033CD21A001979FF38893D89C4D /* DTShapeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72E6AEAA5B04B62FEB61D69467FE691 /* CATransaction+AnimateWithDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8634BB4E855EF1CF78CE1A443F6965 /* CATransaction+AnimateWithDuration.m */; };
+		BDD9DA524B6AF2A52E196184267C831A /* DTDimmingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE94C92B8292195F6991968C33013611 /* DTDimmingView.m */; };
+		C38C65932F6FE3E9A66FD4FBFF9222D1 /* DTProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A156058E56E5245D30FE5E37F64B9A47 /* DTProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48028B9012FD745646294D41345DAEA /* DTShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49231FF16A9FDA08EC4EC09EEC216AF1 /* DTShapeView.m */; };
+		DA592752F71520E8669861E00D887211 /* DTGraphicsConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8788733E2C966C41AF554F32275372AF /* DTGraphicsConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E527B6F526AD92C77502F4FBC5BA9909 /* DMResizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0C4ACACF89C3DDB791CCFDF7A833D3 /* DMResizerViewController.m */; };
+		FCA7C916D39AEF7391428C97D3F76009 /* DTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BF1F66978109161292A9FDCA6235EC /* DTProgressView.m */; };
+		FE9CEC74FFBF5DAA8072C58A83D51C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06B3500AA30501AA2C4DCF2E1536528F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580604EE2D44ABCCF8BF4A9EE0B9C7E4;
+			remoteInfo = Shapes;
+		};
+		6BA8CC20D7683A05D75470E549DCD27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FCF6C4EDF5D36184387C0B2C6F49E6;
+			remoteInfo = DMActivityInstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C02AF3A5AB4ACAA99442FCA67221E0 /* Shapes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shapes.xcconfig; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		12AB75047859BE8D5FE05B637BF8C848 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2521C064D4C8E06969837F5C88D4600A /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		3C76AE6642B2BBFEE1165B7ABAFB3E80 /* Pods-SCRecorderExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCRecorderExamples-dummy.m"; sourceTree = "<group>"; };
+		3EAAA234B04F27E6C36C69B7391E6BD0 /* DTGraphicsConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTGraphicsConverter.m; path = Shapes/DTGraphicsConverter.m; sourceTree = "<group>"; };
+		3FEA27024A76989CDB9BE0B23077AB54 /* CATransaction+AnimateWithDuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+AnimateWithDuration.h"; path = "Shapes/CATransaction+AnimateWithDuration.h"; sourceTree = "<group>"; };
+		49231FF16A9FDA08EC4EC09EEC216AF1 /* DTShapeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTShapeView.m; path = Shapes/DTShapeView.m; sourceTree = "<group>"; };
+		4AB29BCD988F135B94E5AEA2CBE3570A /* CAShapeLayer+UIBezierPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAShapeLayer+UIBezierPath.h"; path = "Shapes/CAShapeLayer+UIBezierPath.h"; sourceTree = "<group>"; };
+		53C0DAA526E13D152B3D273C5231B300 /* Shapes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shapes-prefix.pch"; sourceTree = "<group>"; };
+		57B73D3D7F9A5FCC25FA60FF82E852B7 /* CAShapeLayer+UIBezierPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAShapeLayer+UIBezierPath.m"; path = "Shapes/CAShapeLayer+UIBezierPath.m"; sourceTree = "<group>"; };
+		59E127D36F017AE1ACA2694D053666CB /* DTShapeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTShapeButton.h; path = Shapes/DTShapeButton.h; sourceTree = "<group>"; };
+		5BC289E358416BC894266046D2E36825 /* DTShapeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTShapeButton.m; path = Shapes/DTShapeButton.m; sourceTree = "<group>"; };
+		66840F1F78CA00314CF76E65F95ADD5B /* instagram@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "instagram@2x.png"; path = "DMActivityInstagram/instagram@2x.png"; sourceTree = "<group>"; };
+		67B089CCFFF00CF6C9B366387B6236AB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		6982FE33ABA257263B13F36A7B572D76 /* Shapes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Shapes-dummy.m"; sourceTree = "<group>"; };
+		7037B310E5CFF782629467B3926FEF8E /* instagram~ipad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "instagram~ipad@2x.png"; path = "DMActivityInstagram/instagram~ipad@2x.png"; sourceTree = "<group>"; };
+		70ADD51B0068818540CE7A384368C348 /* DTDimmingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTDimmingView.h; path = Shapes/DTDimmingView.h; sourceTree = "<group>"; };
+		7516DE2F24423A75D234C69615A2EA66 /* Pods-SCRecorderExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCRecorderExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		7B918035F13A6A9AE20950F186164215 /* DTAnimatableShapeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTAnimatableShapeLayer.m; path = Shapes/DTAnimatableShapeLayer.m; sourceTree = "<group>"; };
+		7BB0962160625C6AC1DE7ACD607F2A66 /* DMActivityInstagram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMActivityInstagram.m; path = DMActivityInstagram/DMActivityInstagram.m; sourceTree = "<group>"; };
+		7E8634BB4E855EF1CF78CE1A443F6965 /* CATransaction+AnimateWithDuration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+AnimateWithDuration.m"; path = "Shapes/CATransaction+AnimateWithDuration.m"; sourceTree = "<group>"; };
+		860AE859E2A54BBD5D157FF5D0B7ECDD /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		8788733E2C966C41AF554F32275372AF /* DTGraphicsConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTGraphicsConverter.h; path = Shapes/DTGraphicsConverter.h; sourceTree = "<group>"; };
+		89D3F0D26E28D4DE0BD0F3A24A351242 /* Pods-SCRecorderExamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCRecorderExamples-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A8FF590D672B1A2E1EBFF4FDFB2128F /* libShapes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShapes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E18BE2489E4E139BA3FE11F40148600 /* instagram.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = instagram.png; path = DMActivityInstagram/instagram.png; sourceTree = "<group>"; };
+		92489790F90EBCF4A76FF0387452C192 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		92EB9CA5736208DD71A695EE7FE470C3 /* DMActivityInstagram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMActivityInstagram-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9900A13A9767EC5AFF2596D90B2BC133 /* DMActivityInstagram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMActivityInstagram.xcconfig; sourceTree = "<group>"; };
+		99749020ABF8996E927DE8A30594AFE5 /* DMActivityInstagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMActivityInstagram-dummy.m"; sourceTree = "<group>"; };
+		9E699739FCC8D48C1851A009AF48710A /* DMResizerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMResizerViewController.h; path = DMActivityInstagram/DMResizerViewController.h; sourceTree = "<group>"; };
+		A156058E56E5245D30FE5E37F64B9A47 /* DTProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTProgressView.h; path = Shapes/DTProgressView.h; sourceTree = "<group>"; };
+		A24B6290676CD686B3040C00517FFAEF /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AE94C92B8292195F6991968C33013611 /* DTDimmingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTDimmingView.m; path = Shapes/DTDimmingView.m; sourceTree = "<group>"; };
+		B2843E1D8F4D03EB1B3683B2A8033E3C /* Pods-SCRecorderExamples-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCRecorderExamples-resources.sh"; sourceTree = "<group>"; };
+		BC0C4ACACF89C3DDB791CCFDF7A833D3 /* DMResizerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMResizerViewController.m; path = DMActivityInstagram/DMResizerViewController.m; sourceTree = "<group>"; };
+		BC1E5EA97A5BB5AEA18284DF6BBA594E /* Pods-SCRecorderExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCRecorderExamples.release.xcconfig"; sourceTree = "<group>"; };
+		C0D68E4A91DE2F7C40A49D84D8F41E37 /* instagram~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "instagram~ipad.png"; path = "DMActivityInstagram/instagram~ipad.png"; sourceTree = "<group>"; };
+		C9D0C52EDE7D24188010583BED45041F /* Pods-SCRecorderExamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCRecorderExamples-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5458773347C53689E6338CAFC0B07F2 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		DEF06776478C185ACAF9E277C12225B4 /* Pods-SCRecorderExamples-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCRecorderExamples-frameworks.sh"; sourceTree = "<group>"; };
+		E003BC6B20993AA9AD3A706A88FACB6D /* DMResizerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DMResizerViewController.xib; path = DMActivityInstagram/DMResizerViewController.xib; sourceTree = "<group>"; };
+		E558E033CD21A001979FF38893D89C4D /* DTShapeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTShapeView.h; path = Shapes/DTShapeView.h; sourceTree = "<group>"; };
+		E5E4F89A92906B6CE9B6F3CA58EF9707 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		E62ECA25583598DF5C578063977DCDC2 /* DTAnimatableShapeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTAnimatableShapeLayer.h; path = Shapes/DTAnimatableShapeLayer.h; sourceTree = "<group>"; };
+		EC09B05AB9FCD5CC16A708ED22A2C3D1 /* libPods-SCRecorderExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCRecorderExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28B2468B42B5C946E2AFC55DD7C32AC /* DMActivityInstagram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMActivityInstagram.h; path = DMActivityInstagram/DMActivityInstagram.h; sourceTree = "<group>"; };
+		F3BF1F66978109161292A9FDCA6235EC /* DTProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTProgressView.m; path = Shapes/DTProgressView.m; sourceTree = "<group>"; };
+		F501D87DF752E2DA0F07C87D70A3BA6E /* libDMActivityInstagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDMActivityInstagram.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC37EDDCD2551983C9CB4D855B9F5BEA /* Shapes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Shapes.h; path = Shapes/Shapes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5BA5D7787D18EE72D577CF7A4101FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F7E5595E24A02E227B9F5B638E1E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BD9AB461225D2AEAB2FF8E2953DC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9CEC74FFBF5DAA8072C58A83D51C6B /* Foundation.framework in Frameworks */,
+				363537B5B5618B090074B3FE0249B512 /* QuartzCore.framework in Frameworks */,
+				5C3CDA4111B86DC70A3CFB49ACEEA6F3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0175B03938CE853CB60426E769D532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13037AFA1F2F920401B257CDB6F09CE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055580782CEAA89F386B05077020CACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860AE859E2A54BBD5D157FF5D0B7ECDD /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C1001DFA2A3AB01B9451427AFA261F0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				4AB29BCD988F135B94E5AEA2CBE3570A /* CAShapeLayer+UIBezierPath.h */,
+				57B73D3D7F9A5FCC25FA60FF82E852B7 /* CAShapeLayer+UIBezierPath.m */,
+				3FEA27024A76989CDB9BE0B23077AB54 /* CATransaction+AnimateWithDuration.h */,
+				7E8634BB4E855EF1CF78CE1A443F6965 /* CATransaction+AnimateWithDuration.m */,
+				E62ECA25583598DF5C578063977DCDC2 /* DTAnimatableShapeLayer.h */,
+				7B918035F13A6A9AE20950F186164215 /* DTAnimatableShapeLayer.m */,
+				70ADD51B0068818540CE7A384368C348 /* DTDimmingView.h */,
+				AE94C92B8292195F6991968C33013611 /* DTDimmingView.m */,
+				8788733E2C966C41AF554F32275372AF /* DTGraphicsConverter.h */,
+				3EAAA234B04F27E6C36C69B7391E6BD0 /* DTGraphicsConverter.m */,
+				A156058E56E5245D30FE5E37F64B9A47 /* DTProgressView.h */,
+				F3BF1F66978109161292A9FDCA6235EC /* DTProgressView.m */,
+				59E127D36F017AE1ACA2694D053666CB /* DTShapeButton.h */,
+				5BC289E358416BC894266046D2E36825 /* DTShapeButton.m */,
+				E558E033CD21A001979FF38893D89C4D /* DTShapeView.h */,
+				49231FF16A9FDA08EC4EC09EEC216AF1 /* DTShapeView.m */,
+				FC37EDDCD2551983C9CB4D855B9F5BEA /* Shapes.h */,
+				E4003297D0D6A4861DBCEA0D5A59D436 /* Support Files */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		4329A12E543698E3E477A3F4BCA67072 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				469509FC7CDEE0CCE56C6105ADBD9D1E /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		469509FC7CDEE0CCE56C6105ADBD9D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2521C064D4C8E06969837F5C88D4600A /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47ADF74AD4464DDFFB5BD4714ED3A4A1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				A24B6290676CD686B3040C00517FFAEF /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		5D07F7882054B6365F47E150EEB38D82 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				98E62E832B74563FE9D449C5D11B915D /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		69B669741099A6E8E4E230E11DD2A593 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9900A13A9767EC5AFF2596D90B2BC133 /* DMActivityInstagram.xcconfig */,
+				99749020ABF8996E927DE8A30594AFE5 /* DMActivityInstagram-dummy.m */,
+				92EB9CA5736208DD71A695EE7FE470C3 /* DMActivityInstagram-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DMActivityInstagram";
+			sourceTree = "<group>";
+		};
+		72B0DA433253977A140EF4E84F4C8DD2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE300AB08D1A748A5CBB31CE371015 /* Pods-SCRecorderExamples */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C885C795EB4E3DFD6869C3789F87BD3 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				801E3157CB55C28146CFC12937D18EC5 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				92B2767E5EDA037311F89FC7A075365A /* Pods */,
+				E76BF938537B4819390DC577941C9C73 /* Products */,
+				72B0DA433253977A140EF4E84F4C8DD2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		801E3157CB55C28146CFC12937D18EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67B089CCFFF00CF6C9B366387B6236AB /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B2767E5EDA037311F89FC7A075365A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADA117DD4F6DA029B0D23C7D72AE30B8 /* DMActivityInstagram */,
+				F2F20E6983EAC90A3CE358289FD53B0C /* Firebase */,
+				B9B1004F0C27ABA69D99160A17D8314D /* FirebaseAnalytics */,
+				B9A7D057FD66986D2FA215539927088A /* FirebaseInstanceID */,
+				7C885C795EB4E3DFD6869C3789F87BD3 /* Google-Mobile-Ads-SDK */,
+				5D07F7882054B6365F47E150EEB38D82 /* GoogleInterchangeUtilities */,
+				C32A033F27793FBAF52324C5F9BC4A57 /* GoogleSymbolUtilities */,
+				4329A12E543698E3E477A3F4BCA67072 /* GoogleUtilities */,
+				1C1001DFA2A3AB01B9451427AFA261F0 /* Shapes */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98E62E832B74563FE9D449C5D11B915D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5458773347C53689E6338CAFC0B07F2 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A5D7E3EEDBE46BFD394DBE4CA3E6FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12AB75047859BE8D5FE05B637BF8C848 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA117DD4F6DA029B0D23C7D72AE30B8 /* DMActivityInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				F28B2468B42B5C946E2AFC55DD7C32AC /* DMActivityInstagram.h */,
+				7BB0962160625C6AC1DE7ACD607F2A66 /* DMActivityInstagram.m */,
+				9E699739FCC8D48C1851A009AF48710A /* DMResizerViewController.h */,
+				BC0C4ACACF89C3DDB791CCFDF7A833D3 /* DMResizerViewController.m */,
+				C5E2F82C414D37270C53D004D0C51DAC /* Resources */,
+				69B669741099A6E8E4E230E11DD2A593 /* Support Files */,
+			);
+			path = DMActivityInstagram;
+			sourceTree = "<group>";
+		};
+		B9A7D057FD66986D2FA215539927088A /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				92489790F90EBCF4A76FF0387452C192 /* FIRInstanceID.h */,
+				055580782CEAA89F386B05077020CACA /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		B9B1004F0C27ABA69D99160A17D8314D /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5D7E3EEDBE46BFD394DBE4CA3E6FE /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		C32A033F27793FBAF52324C5F9BC4A57 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52B6D2DE3BC8DC54BF0433C7A7124 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		C5E2F82C414D37270C53D004D0C51DAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E003BC6B20993AA9AD3A706A88FACB6D /* DMResizerViewController.xib */,
+				8E18BE2489E4E139BA3FE11F40148600 /* instagram.png */,
+				66840F1F78CA00314CF76E65F95ADD5B /* instagram@2x.png */,
+				C0D68E4A91DE2F7C40A49D84D8F41E37 /* instagram~ipad.png */,
+				7037B310E5CFF782629467B3926FEF8E /* instagram~ipad@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4003297D0D6A4861DBCEA0D5A59D436 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C02AF3A5AB4ACAA99442FCA67221E0 /* Shapes.xcconfig */,
+				6982FE33ABA257263B13F36A7B572D76 /* Shapes-dummy.m */,
+				53C0DAA526E13D152B3D273C5231B300 /* Shapes-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Shapes";
+			sourceTree = "<group>";
+		};
+		E76BF938537B4819390DC577941C9C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F501D87DF752E2DA0F07C87D70A3BA6E /* libDMActivityInstagram.a */,
+				EC09B05AB9FCD5CC16A708ED22A2C3D1 /* libPods-SCRecorderExamples.a */,
+				8A8FF590D672B1A2E1EBFF4FDFB2128F /* libShapes.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD52B6D2DE3BC8DC54BF0433C7A7124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E4F89A92906B6CE9B6F3CA58EF9707 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F20E6983EAC90A3CE358289FD53B0C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				47ADF74AD4464DDFFB5BD4714ED3A4A1 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		FBFE300AB08D1A748A5CBB31CE371015 /* Pods-SCRecorderExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C9D0C52EDE7D24188010583BED45041F /* Pods-SCRecorderExamples-acknowledgements.markdown */,
+				89D3F0D26E28D4DE0BD0F3A24A351242 /* Pods-SCRecorderExamples-acknowledgements.plist */,
+				3C76AE6642B2BBFEE1165B7ABAFB3E80 /* Pods-SCRecorderExamples-dummy.m */,
+				DEF06776478C185ACAF9E277C12225B4 /* Pods-SCRecorderExamples-frameworks.sh */,
+				B2843E1D8F4D03EB1B3683B2A8033E3C /* Pods-SCRecorderExamples-resources.sh */,
+				7516DE2F24423A75D234C69615A2EA66 /* Pods-SCRecorderExamples.debug.xcconfig */,
+				BC1E5EA97A5BB5AEA18284DF6BBA594E /* Pods-SCRecorderExamples.release.xcconfig */,
+			);
+			name = "Pods-SCRecorderExamples";
+			path = "Target Support Files/Pods-SCRecorderExamples";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		283A8A18571D25075088196CAB083497 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACFC089FA7964E5758FEA7BAB6927F2 /* DMActivityInstagram.h in Headers */,
+				183A7ED70D9802C8D58AC79E331432DF /* DMResizerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15F858D1F4290C77332BF285A01E3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A95952E8A526E3FEBFA01C01A83EEE8 /* CAShapeLayer+UIBezierPath.h in Headers */,
+				82E1E40891725ED4B6F3D5A78533D829 /* CATransaction+AnimateWithDuration.h in Headers */,
+				912F018CC6EED5930AC13B0995E60E5D /* DTAnimatableShapeLayer.h in Headers */,
+				6FC6B715F1E05AC82D35B501EADD1B96 /* DTDimmingView.h in Headers */,
+				DA592752F71520E8669861E00D887211 /* DTGraphicsConverter.h in Headers */,
+				C38C65932F6FE3E9A66FD4FBFF9222D1 /* DTProgressView.h in Headers */,
+				1AEC62EC45FAA570F01D89336E9C13A2 /* DTShapeButton.h in Headers */,
+				9E1DAEC998B7D18E2654B3967144A1A5 /* DTShapeView.h in Headers */,
+				6CFC49FC77DFBE5CC9B4A224B9B39775 /* Shapes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38FCF6C4EDF5D36184387C0B2C6F49E6 /* DMActivityInstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1035534243C1D92D0FFF9EB97D5AC0 /* Build configuration list for PBXNativeTarget "DMActivityInstagram" */;
+			buildPhases = (
+				F923DC39FA469788F40682F2C34B3265 /* Sources */,
+				CF0175B03938CE853CB60426E769D532 /* Frameworks */,
+				283A8A18571D25075088196CAB083497 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMActivityInstagram;
+			productName = DMActivityInstagram;
+			productReference = F501D87DF752E2DA0F07C87D70A3BA6E /* libDMActivityInstagram.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		580604EE2D44ABCCF8BF4A9EE0B9C7E4 /* Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2605CCCB65A408B579219C728A972003 /* Build configuration list for PBXNativeTarget "Shapes" */;
+			buildPhases = (
+				A995CD64DA1FAB4D5C7EAEA9C2DB1296 /* Sources */,
+				63BD9AB461225D2AEAB2FF8E2953DC23 /* Frameworks */,
+				B15F858D1F4290C77332BF285A01E3CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shapes;
+			productName = Shapes;
+			productReference = 8A8FF590D672B1A2E1EBFF4FDFB2128F /* libShapes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F3D99E928451A5AEAA36AD71E06F8724 /* Pods-SCRecorderExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07929913B169030DCBD1014E180F5B72 /* Build configuration list for PBXNativeTarget "Pods-SCRecorderExamples" */;
+			buildPhases = (
+				8C6DACA0597FD4BB6EDFF011FE7D7561 /* Sources */,
+				2C5BA5D7787D18EE72D577CF7A4101FC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB587EC17F98363AAA5C51C29FDD627E /* PBXTargetDependency */,
+				AB0242F5855850E15811F948D837BB43 /* PBXTargetDependency */,
+			);
+			name = "Pods-SCRecorderExamples";
+			productName = "Pods-SCRecorderExamples";
+			productReference = EC09B05AB9FCD5CC16A708ED22A2C3D1 /* libPods-SCRecorderExamples.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E76BF938537B4819390DC577941C9C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38FCF6C4EDF5D36184387C0B2C6F49E6 /* DMActivityInstagram */,
+				F3D99E928451A5AEAA36AD71E06F8724 /* Pods-SCRecorderExamples */,
+				580604EE2D44ABCCF8BF4A9EE0B9C7E4 /* Shapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6DACA0597FD4BB6EDFF011FE7D7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9E9C8269B566F45313E0E515967E7 /* Pods-SCRecorderExamples-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A995CD64DA1FAB4D5C7EAEA9C2DB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6D3E0367FECECD35255E292C15FCC3 /* CAShapeLayer+UIBezierPath.m in Sources */,
+				B72E6AEAA5B04B62FEB61D69467FE691 /* CATransaction+AnimateWithDuration.m in Sources */,
+				5ABD3D85E81CB6833FEF7F449FB83450 /* DTAnimatableShapeLayer.m in Sources */,
+				BDD9DA524B6AF2A52E196184267C831A /* DTDimmingView.m in Sources */,
+				75EDDF9265692B789A668098F7C9C12F /* DTGraphicsConverter.m in Sources */,
+				FCA7C916D39AEF7391428C97D3F76009 /* DTProgressView.m in Sources */,
+				36CEB9E130FE620E3CEB3E52F4DDBD81 /* DTShapeButton.m in Sources */,
+				D48028B9012FD745646294D41345DAEA /* DTShapeView.m in Sources */,
+				85FFF79B48FA9F316576D1892222A59B /* Shapes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F923DC39FA469788F40682F2C34B3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC21C4B7BD43B1D33AD9412CA98EBC1 /* DMActivityInstagram-dummy.m in Sources */,
+				3BD2DECF2CCEF9C08B7503B1CD9DF9B9 /* DMActivityInstagram.m in Sources */,
+				E527B6F526AD92C77502F4FBC5BA9909 /* DMResizerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB0242F5855850E15811F948D837BB43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shapes;
+			target = 580604EE2D44ABCCF8BF4A9EE0B9C7E4 /* Shapes */;
+			targetProxy = 06B3500AA30501AA2C4DCF2E1536528F /* PBXContainerItemProxy */;
+		};
+		CB587EC17F98363AAA5C51C29FDD627E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DMActivityInstagram;
+			target = 38FCF6C4EDF5D36184387C0B2C6F49E6 /* DMActivityInstagram */;
+			targetProxy = 6BA8CC20D7683A05D75470E549DCD27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D90A02B76F5464108B76F0651B14F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7516DE2F24423A75D234C69615A2EA66 /* Pods-SCRecorderExamples.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7B3D564208464C3581D179078CDD4DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1E5EA97A5BB5AEA18284DF6BBA594E /* Pods-SCRecorderExamples.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A8C92A08BADC05C6BB66BA7633643F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C02AF3A5AB4ACAA99442FCA67221E0 /* Shapes.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shapes/Shapes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF129294180003844E73A3C974A63DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9900A13A9767EC5AFF2596D90B2BC133 /* DMActivityInstagram.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zihae (3BF35UELZG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DMActivityInstagram/DMActivityInstagram-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c0b2a767-d834-439d-a2b7-5a5d91ddc5d8";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B508E8FBA336210046195EC51E80582F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C02AF3A5AB4ACAA99442FCA67221E0 /* Shapes.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shapes/Shapes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C4E38F2C9617A25A8F4CDB570A166B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9900A13A9767EC5AFF2596D90B2BC133 /* DMActivityInstagram.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zihae (3BF35UELZG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DMActivityInstagram/DMActivityInstagram-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c0b2a767-d834-439d-a2b7-5a5d91ddc5d8";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07929913B169030DCBD1014E180F5B72 /* Build configuration list for PBXNativeTarget "Pods-SCRecorderExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D90A02B76F5464108B76F0651B14F35 /* Debug */,
+				7B3D564208464C3581D179078CDD4DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2605CCCB65A408B579219C728A972003 /* Build configuration list for PBXNativeTarget "Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C92A08BADC05C6BB66BA7633643F57 /* Debug */,
+				B508E8FBA336210046195EC51E80582F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1035534243C1D92D0FFF9EB97D5AC0 /* Build configuration list for PBXNativeTarget "DMActivityInstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF129294180003844E73A3C974A63DEE /* Debug */,
+				C4E38F2C9617A25A8F4CDB570A166B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
